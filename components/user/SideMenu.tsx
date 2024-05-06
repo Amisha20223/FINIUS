@@ -18,15 +18,15 @@ export function SideMenu() {
           </span>
           <span className="sm:max-lg:hidden">
             <span className="font-display text-3xl font-bold -tracking-wide text-primary">
-              Lingo
+              FINIUS
             </span>
           </span>
         </NextLink>
         <ul className="flex flex-col gap-y-2">
-          <SideMenuItem href="/learn" icon="learn" label="Learn" />
-          <SideMenuItem href="/leaderboard" icon="leaderboard" label="Leaderboard" />
-          <SideMenuItem href="/quests" icon="quests" label="Quests" />
-          <SideMenuItem href="/shop" icon="shop" label="Shop" />
+          <SideMenuItem href="/learn" icon="learn" label="Learning Modules" />
+          <SideMenuItem href="/leaderboard" icon="leaderboard" label="Quizzes" />
+          <SideMenuItem href="/quests" icon="quests" label="Chatbot" />
+          <SideMenuItem href="/shop" icon="shop" label="Feedback" />
         </ul>
       </nav>
       <div className="space-y-2 border-t-2 px-4 pb-2 pt-2 sm:max-lg:px-2">

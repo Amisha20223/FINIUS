@@ -24,9 +24,9 @@ export function Metrics({ children }: PropsWithChildren) {
     <section className="pb-8 pt-16 md:py-20">
       <AnimatedTitle>
         <h2 className="heading-section">
-          <span className="text-primary">Finius</span> by the{' '}
+          <span className="text-primary">Join the</span> Finance{' '}
           <span className="text-secondary underline decoration-wavy underline-offset-4 md:underline-offset-8">
-            numbers
+            Frenzy
           </span>
         </h2>
       </AnimatedTitle>

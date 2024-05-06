@@ -17,7 +17,7 @@ export function Reasons() {
         <li>
           <ReasonsItem
             className="text-primary-dark bg-primary/80 hover:bg-primary/65 dark:hover:bg-primary"
-            reason="Learn 5x faster, 5x more fun"
+            reason="User-Friendly Interface: Intuitive design for seamless navigation"
           >
             <Zap />
           </ReasonsItem>
@@ -25,7 +25,7 @@ export function Reasons() {
         <li>
           <ReasonsItem
             className="bg-secondary/60 text-secondary-depth hover:bg-secondary/40 dark:bg-secondary/85 dark:hover:bg-secondary"
-            reason="Custom lessons backed by science"
+            reason="Engagement: Interactive features keep users captivated"
             delay={0.2}
           >
             <Atom />
@@ -33,7 +33,8 @@ export function Reasons() {
         </li>
         <li>
           <ReasonsItem
-            reason="Fun challenges to stay motivated"
+            reason="Learning Progress Tracking: Monitor progress effortlessly 
+            with built-in tools"
             className="bg-highlight/60 text-highlight-depth hover:bg-highlight/40 dark:bg-highlight/85 dark:hover:bg-highlight"
             delay={0.3}
           >
@@ -42,7 +43,8 @@ export function Reasons() {
         </li>
         <li>
           <ReasonsItem
-            reason="Use Lingo wherever you go"
+            reason="Feedback Mechanism: Share thoughts for continuous 
+            improvement"
             className="bg-primary-light/60 text-primary-depth hover:bg-primary-light/40 dark:hover:bg-primary-light"
             delay={0.4}
           >

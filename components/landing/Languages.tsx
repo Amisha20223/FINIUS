@@ -28,7 +28,7 @@ export function Languages() {
     <section className="space-y-20 px-4 py-8 sm:px-[10%] md:py-20">
       <AnimatedTitle>
         <h2 className="heading-section">
-          I want to <span className="text-highlight-depth">learn ...</span>
+          Dive into our  <span className="text-highlight-depth">Modules</span>
         </h2>
       </AnimatedTitle>
       <div className="mx-auto max-w-screen-lg">
