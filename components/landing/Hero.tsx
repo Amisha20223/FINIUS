@@ -43,13 +43,8 @@ export function Hero() {
           </span>
           <span className="flex flex-wrap items-center justify-center">
             Learn{' '}
-            <span className="group relative ml-[0.25em] flex h-[1.35em] w-[1.5em] items-center justify-center rounded-full bg-secondary/30 dark:text-secondary">
-             
-            </span>
-            <span className="mr-[0.25em]">
-       
-             
-            </span>{' '}
+          
+           
             With FINIUS
           </span>
         </h1>
@@ -114,7 +109,7 @@ export function Hero() {
       <div className="absolute -right-[2%] top-1/3 -z-1 sm:right-[10%] md:top-2/3">
         <AnimatedHeroDecor className="origin-top-left" delay={1.4}>
           <div className="size-20 rotate-12 rounded-lg bg-gradient-to-l from-secondary/30  to-transparent p-2 text-background sm:size-24 lg:size-32">
-            <VoiceSVG />
+          
           </div>
         </AnimatedHeroDecor>
       </div>

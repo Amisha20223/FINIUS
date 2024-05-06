@@ -1,13 +1,18 @@
-import NextImage from 'next/image'
-import type { Variants } from 'framer-motion'
-import { AspectRatio } from '@/components/ui/aspect-ratio'
-import { Button } from '@/components/ui/button'
-import { AnimatedTitle } from '@/components/motion/AnimatedTitle'
-import { AnimatedList, AnimatedListItem } from '@/components/motion/AnimatedList'
+import NextImage from 'next/image';
+import type { Variants } from 'framer-motion';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
+import { Button } from '@/components/ui/button';
+import { AnimatedTitle } from '@/components/motion/AnimatedTitle';
+import { AnimatedList, AnimatedListItem } from '@/components/motion/AnimatedList';
 
-import { languages } from '@/config/languages'
+const images = [
+  { src: '/budget.png', alt: 'Image 1', title: 'budget' },
+  { src: '/savings.png', alt: 'Image 2', title: 'savings' },
+  { src: '/investment.png', alt: 'Image 3', title: 'investment' },
+  { src: '/retirement-plan.png', alt: 'Image 4', title: 'planning' },
+];
 
-const list = {
+const list: Variants = {
   visible: {
     opacity: 1,
     transition: {
@@ -16,43 +21,32 @@ const list = {
     },
   },
   hidden: { opacity: 0 },
-} satisfies Variants
+};
 
-const item = {
+const item: Variants = {
   visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
   hidden: { opacity: 0, scale: 0.4 },
-} satisfies Variants
+};
 
 export function Languages() {
   return (
-    <section className="space-y-20 px-4 py-8 sm:px-[10%] md:py-20">
+    <section className="space-y-10 px-4 py-8 sm:px-[10%] md:py-20">
       <AnimatedTitle>
         <h2 className="heading-section">
-          I want to <span className="text-highlight-depth">learn ...</span>
+          Dive into our <span className="text-highlight-depth">Modules ...</span>
         </h2>
       </AnimatedTitle>
       <div className="mx-auto max-w-screen-lg">
-        <AnimatedList
-          className="flex flex-wrap justify-center gap-2 text-center lg:gap-4"
-          variants={list}
-        >
-          {languages.map(({ flag, title }) => (
-            <AnimatedListItem key={title} className="basis-28 md:basis-40" variants={item}>
+        <AnimatedList className="flex flex-wrap justify-center gap-2 text-center lg:gap-4" variants={list}>
+          {images.map(({ src, alt, title }, index) => (
+            <AnimatedListItem key={title} className={`basis-28 md:basis-40 ${index > 0 ? 'ml-10' : ''}`} variants={item}>
               <Button
                 variant="ghost"
                 size="lg"
-                className="size-full flex-wrap bg-secondary/10 px-0 pb-4 transition active:scale-95 lg:text-base"
+                className="size-full flex-wrap bg-secondary/10 px-1 pb-9 transition active:scale-95 lg:text-base"
               >
-                <AspectRatio
-                  ratio={3 / 2}
-                  className="!top-1/2 mx-auto h-1/2 w-1/2 -translate-y-1/2"
-                >
-                  <NextImage
-                    src={`/img/flags/${flag}.svg`}
-                    alt={`${title} flag`}
-                    fill
-                    className="rounded-md object-cover"
-                  />
+                <AspectRatio ratio={1} className="aspect-w-1 aspect-h-1 bg-pink-300 rounded-md overflow-hidden">
+                  <NextImage src={src} alt={alt} layout="fill" objectFit="cover" className="rounded-md" />
                 </AspectRatio>
                 <span>{title}</span>
               </Button>
@@ -61,5 +55,5 @@ export function Languages() {
         </AnimatedList>
       </div>
     </section>
-  )
+  );
 }

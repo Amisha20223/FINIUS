@@ -49,7 +49,7 @@ export function LanguagePill({
         className="gap-4 px-4 text-[7vw] shadow-2xl sm:pl-8 sm:text-[5vw] lg:text-[min(4vw,4rem)]"
       >
         <span className="capitalize">{word}</span>
-        <span className="rounded-full bg-white p-[0.15em] shadow-md">
+        <span className="rounded-full bg-red p-[0.15em] shadow-md">
           <span className="relative block size-[1.1em] overflow-hidden rounded-inherit">
             <NextImage
               src={`/img/flags/${flag}.svg`}
