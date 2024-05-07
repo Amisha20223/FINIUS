@@ -30,27 +30,27 @@ export function Footer() {
         <div className="flex border-b-2 border-border/70 dark:border-card dark:bg-primary max-md:flex-col-reverse">
           <div className="group flex w-full flex-1 gap-12 overflow-hidden whitespace-nowrap border-border/70 py-2 text-lg capitalize max-md:border-t-2 sm:text-2xl md:border-r-2 md:py-4">
             <p className="flex animate-footer-marquee items-center gap-12 group-hover:paused">
-              <span>start your language journey here.</span>
+              <span>Keep laughing, keep learning, amigos!</span>
               <ArrowDown className="h-[1.5em] w-[1.5em]" aria-hidden="true" strokeWidth={2.25} />
-              <span>learn anytime, learn anywhere.</span>
+              <span>Keep laughing, keep learning, amigos!</span>
               <Asterisk className="h-[1.5em] w-[1.5em]" aria-hidden="true" strokeWidth={2.25} />
             </p>
             <p
               className="flex animate-footer-marquee items-center gap-12 group-hover:paused"
               aria-hidden="true"
             >
-              <span>start your  journey here.</span>
+              <span>Keep laughing, keep learning, amigos!</span>
               <ArrowDown className="h-[1.5em] w-[1.5em]" aria-hidden="true" strokeWidth={2.25} />
-              <span>learn anytime, learn anywhere.</span>
+              <span>Keep laughing, keep learning, amigos!</span>
               <Asterisk className="h-[1.5em] w-[1.5em]" aria-hidden="true" strokeWidth={2.25} />
             </p>
             <p
               className="flex animate-footer-marquee items-center gap-12 group-hover:paused"
               aria-hidden="true"
             >
-              <span>start your  journey here.</span>
+              <span>Keep laughing, keep learning, amigos!</span>
               <ArrowDown className="h-[1.5em] w-[1.5em]" aria-hidden="true" strokeWidth={2.25} />
-              <span>learn anytime, learn anywhere.</span>
+              <span>Keep laughing, keep learning, amigos!</span>
               <Asterisk className="h-[1.5em] w-[1.5em]" aria-hidden="true" strokeWidth={2.25} />
             </p>
           </div>
