@@ -1,47 +1,48 @@
 export const languages = [
   {
-    title: 'English',
-    flag: 'gb',
-    word: 'Hello',
+   
+    title: 'Spanish',
+    flag: 'es',
+    word: 'ChatBot',
   },
   {
     title: 'Spanish',
     flag: 'es',
-    word: 'Hola',
+    word: 'ChatBot',
   },
   {
     title: 'French',
     flag: 'fr',
-    word: 'Bonjour',
+    word: 'Quizzes',
   },
   {
     title: 'Korean',
     flag: 'kr',
-    word: 'Annyeong',
+    word: 'Feedback',
   },
   {
     title: 'Japanese',
     flag: 'jp',
-    word: 'Konnichiwa',
+    word: 'Stocks',
   },
   {
     title: 'Mandarin',
     flag: 'cn',
-    word: 'Nǐ hǎo',
+    word: 'Investment',
   },
   {
     title: 'Italian',
     flag: 'it',
-    word: 'Ciao',
+    word: 'Marketing',
   },
   {
     title: 'Russian',
     flag: 'ru',
-    word: 'Привет',
+    word: 'Savings',
   },
   {
     title: 'German',
     flag: 'de',
-    word: 'Hallo',
+    word: 'Trading',
   },
 ]
