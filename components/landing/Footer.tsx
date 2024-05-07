@@ -111,7 +111,7 @@ export function Footer() {
         </a>
         
       </p>
-      <p className="text-center text-2xl">{`{◕ ◡ ◕}`}</p>
+      <p className="text-center text-2xl">{`© 2024 FINIUS. All rights reserved`}</p>
     </footer>
   )
 }
