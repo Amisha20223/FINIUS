@@ -23,10 +23,10 @@ export function SideMenu() {
           </span>
         </NextLink>
         <ul className="flex flex-col gap-y-2">
-          <SideMenuItem href="/learn" icon="learn" label="Learning Modules" />
-          <SideMenuItem href="/leaderboard" icon="leaderboard" label="Quizzes" />
-          <SideMenuItem href="/quests" icon="quests" label="Chatbot" />
-          <SideMenuItem href="/shop" icon="shop" label="Feedback" />
+          <SideMenuItem href="/learn" icon="learn" label="Budget" />
+          <SideMenuItem href="/leaderboard" icon="leaderboard" label="Investments" />
+          <SideMenuItem href="/quests" icon="quests" label="Savings" />
+          <SideMenuItem href="/shop" icon="shop" label="Retirement Planning" />
         </ul>
       </nav>
       <div className="space-y-2 border-t-2 px-4 pb-2 pt-2 sm:max-lg:px-2">
