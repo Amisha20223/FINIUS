@@ -50,13 +50,13 @@ export function SideMenu() {
     <div className="flex h-full flex-col justify-between pt-6">
       <nav className="flex flex-col gap-6 px-4 sm:max-lg:px-2">
         <NextLink href="/learn">
-          <button className="focus-visible self-start rounded-xl max-sm:ml-4 sm:max-lg:self-center lg:ml-4">
+          <button className="focus-visible self-start rounded-xl max-sm:ml-4 sm:max-lg:self-center lg:ml">
             <span className="hidden sm:max-lg:block">
               <LogoSVG className="w-10 hover:animate-bounce" />
             </span>
             <span className="sm:max-lg:hidden">
               <span className="font-display text-1xl font-bold -tracking-wide text-primary">
-              Learning Modules
+              Budget
               </span>
             </span>
           </button>
