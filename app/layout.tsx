@@ -11,12 +11,21 @@ import '@/styles/globals.css'
 export const metadata: Metadata = {
   ...sharedMetadata,
   title: {
+<<<<<<< HEAD
     template: '%s | FINUS App',
     default: 'FINIUS App - Unlock Finance knowledge.',
   },
   description:
     'Master Finance with the FINIUS app - fun and easy way to handle finance like a pro!',
   keywords: ['FINIUS', 'Finanace', 'Learn About It'],
+=======
+    template: '%s | Finius App',
+    default: 'Finius App - Master finance knowledge',
+  },
+  description:
+    'Become a Finance Frenzy with our - Finius App',
+  keywords: ['FINIUS', 'Finance', 'Learn About It'],
+>>>>>>> 42433974d0971593a382adffd18cbba6b15d9038
 }
 
 export default function RootLayout({
