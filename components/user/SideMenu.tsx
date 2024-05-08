@@ -31,15 +31,9 @@ export function SideMenu() {
         </NextLink>
         <ul className="flex flex-col gap-y-2">
           <SideMenuItem href="/learn" icon="learn" label="Budget" />
-<<<<<<< HEAD
-          <SideMenuItem href="/leaderboard" icon="leaderboard" label="Investments" />
-          <SideMenuItem href="/quests" icon="quests" label="Savings" />
-          <SideMenuItem href="/shop" icon="shop" label="Retirement Planning" />
-=======
           <SideMenuItem href="/leaderboard" icon="leaderboard" label="Savings" />
           <SideMenuItem href="/quests" icon="quests" label="Investment" />
           <SideMenuItem href="/shop" icon="shop" label="Planning" />
->>>>>>> 58689253379d78e4767c2f9f717177a225456d71
         </ul>
       </nav>
       <div className="space-y-2 border-t-2 px-4 pb-2 pt-2 sm:max-lg:px-2">
