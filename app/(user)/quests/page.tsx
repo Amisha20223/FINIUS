@@ -32,12 +32,12 @@ export function SideMenu() {
             </span>
           </button>
         </NextLink>
-        <ul className="flex flex-col  gap-y-20">
+        <div className="flex flex-row  gap-y-20">
           <SideMenuItem href="/learn" icon="learn" label="Learning Modules" />
           <SideMenuItem href="/leaderboard" icon="leaderboard" label="Quizzes" />
           <SideMenuItem href="/quests" icon="quests" label="Chatbot" />
           <SideMenuItem href="/shop" icon="shop" label="Feedback" />
-        </ul>
+        </div>
       </nav>
       <div className="space-y-5 border-t-20 px-2 pb-2 pt-20 sm:max-lg:px-2">
         <SideMenuThemeButton />
