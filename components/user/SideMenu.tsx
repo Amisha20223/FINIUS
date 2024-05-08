@@ -1,11 +1,18 @@
-import NextLink from 'next/link'
-import { SideMenuItem } from '@/components/user/SideMenuItem'
-import { SideMenuThemeButton } from '@/components/user/SideMenuThemeButton'
-import { SideMenuUserButton } from '@/components/user/SideMenuUserButton'
+// SideMenu.tsx
+import React from 'react';
+import NextLink from 'next/link';
+import { SideMenuItem } from '@/components/user/SideMenuItem';
+import { SideMenuThemeButton } from '@/components/user/SideMenuThemeButton';
+import { SideMenuUserButton } from '@/components/user/SideMenuUserButton';
+import LogoSVG from '@/public/logo.svg';
 
-import LogoSVG from '@/public/logo.svg'
 
 export function SideMenu() {
+  const handleItemClick = (item: string) => {
+    // Handle click logic here
+    console.log(`Clicked on ${item}`);
+  };
+
   return (
     <div className="flex h-full flex-col justify-between pt-6">
       <nav className="flex flex-col gap-6 px-4 sm:max-lg:px-2">
@@ -23,16 +30,18 @@ export function SideMenu() {
           </span>
         </NextLink>
         <ul className="flex flex-col gap-y-2">
-          <SideMenuItem href="/learn" icon="learn" label="Learning Modules" />
-          <SideMenuItem href="/leaderboard" icon="leaderboard" label="Quizzes" />
-          <SideMenuItem href="/quests" icon="quests" label="Chatbot" />
-          <SideMenuItem href="/shop" icon="shop" label="Feedback" />
+          <SideMenuItem href="/learn" icon="learn" label="Budget" />
+          <SideMenuItem href="/leaderboard" icon="leaderboard" label="Savings" />
+          <SideMenuItem href="/quests" icon="quests" label="Investment" />
+          <SideMenuItem href="/shop" icon="shop" label="Planning" />
         </ul>
       </nav>
       <div className="space-y-2 border-t-2 px-4 pb-2 pt-2 sm:max-lg:px-2">
         <SideMenuThemeButton />
         <SideMenuUserButton />
       </div>
+      {/* Add the MainBody component */}
+    
     </div>
-  )
+  );
 }

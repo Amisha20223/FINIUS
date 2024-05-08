@@ -34,9 +34,9 @@ export function Metrics({ children }: PropsWithChildren) {
         <li className="sticky top-[20%] col-start-2 col-end-12 pb-8 sm:col-start-3 sm:col-end-8 sm:pb-16 lg:top-[5%] lg:pb-40">
           <MetricsItem
             className="bg-primary-light  bg-yellow-200"
-            number={75}
+            number={73}
             suffix="%"
-            description="are eager to learn already"
+            description="are eager to be financially literate"
             offset={20}
             progress={scrollYProgress}
           >
@@ -46,9 +46,9 @@ export function Metrics({ children }: PropsWithChildren) {
         <li className="sticky top-[22.5%] col-start-2 col-end-12 pb-8 sm:col-start-1 sm:col-end-5 sm:pb-16 lg:pb-40">
           <MetricsItem
             className="bg-secondary"
-            number={80}
+            number={30.7}
             suffix="%"
-            description=" seek fundamental budgeting skills"
+            description="millennials lacked investing awareness."
             offset={22.5}
             progress={scrollYProgress}
           >
@@ -58,10 +58,10 @@ export function Metrics({ children }: PropsWithChildren) {
         <li className="sticky top-[25%] col-start-2 col-end-12 pb-8 sm:col-start-6 sm:col-end-10 sm:pb-16 lg:pb-40">
           <MetricsItem
             className="bg-highlight"
-            number={65}
+            number={32}
             suffix="%"
             
-            description=" eager to learn investing"
+            description="Lacks basic financial knowledge."
             offset={25}
             progress={scrollYProgress}
           >
@@ -71,9 +71,9 @@ export function Metrics({ children }: PropsWithChildren) {
         <li className="sticky top-[20%] col-start-1 col-end-13 pb-8 sm:col-start-2 sm:col-end-9 sm:pb-16 lg:top-[5%] lg:pb-40">
           <MetricsItem
             className=" bg-purple-400"
-            number={75}
+            number={76}
             suffix="%"
-            description="want better debt understanding"
+            description="agreed that financial planning education is necessary."
             offset={20}
             progress={scrollYProgress}
             last

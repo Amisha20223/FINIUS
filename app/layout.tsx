@@ -11,11 +11,11 @@ import '@/styles/globals.css'
 export const metadata: Metadata = {
   ...sharedMetadata,
   title: {
-    template: '%s | Lingo App',
-    default: 'Lingo App - Unlock a new language.',
+    template: '%s | FINUS App',
+    default: 'FINIUS App - Unlock Finance knowledge.',
   },
   description:
-    'Master a new language with the Lingo app - tun and easy way to speak like a local!',
+    'Master Finance with the FINIUS app - fun and easy way to handle finance like a pro!',
   keywords: ['FINIUS', 'Finanace', 'Learn About It'],
 }
 
