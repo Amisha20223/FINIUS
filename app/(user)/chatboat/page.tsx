@@ -16,7 +16,7 @@ export default function Learn() {
 export function SideMenu() {
   return (
     <div className="flex h-full flex-col justify-between pt-6">
-      hii
+     
     </div>
   );
 }

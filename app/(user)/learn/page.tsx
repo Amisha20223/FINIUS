@@ -64,16 +64,11 @@ export function SideMenu() {
         <div className="flex flex-col w-full h-screen justify-center items-center gap-y-10">
           <div className='flex flex-row gap-x-10'>
             <SideMenuInnerItem href="/learning"  modulename = "budget" icon="learn" label="Blogs/Articles " />
-            <SideMenuInnerItem href="/learn"  modulename = "budget" icon="leaderboard" label="Gamified Learning" />
+             <SideMenuInnerItem href="/learn"  modulename = "budget" icon="leaderboard" label="Gamified Learning" /> */}
           </div>
           <div className='flex flex-row gap-x-10'>
-<<<<<<< HEAD
-            <SideMenuInnerItem href="/chatboat" modulename = "budget" icon="quests" label="Chatbot"/>
-            <SideMenuInnerItem href="/shop" icon="shop"  modulename = "budget" label="Feedback" />
-=======
-            <SideMenuInnerItem href="/chatboat" modulename = "budget" icon="quests" label="Videos"/>
+            <SideMenuInnerItem href="/videos" modulename = "budget" icon="quests" label="Videos"/>
             <SideMenuInnerItem href="/shop" icon="shop"  modulename = "budget" label="Performance Tracker" />
->>>>>>> fda06c62e722580977dc1789c389e3ef25c9f913
           </div>
         </div>
       </nav>
