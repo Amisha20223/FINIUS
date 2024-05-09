@@ -15,7 +15,7 @@ const LearningPage: React.FC = () => {
           <div className="bg-orange-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 text-orange-700"> What is budget?</h3>
             <p className="text-gray-700 mb-4">
-            "Budgeting: Your Blueprint for Financial Success!"
+            Budgeting: Your Blueprint for Financial Success!
 
             <iframe width="300" height="315"
         src="https://www.youtube.com/embed/oFUtWo4YcbM">
