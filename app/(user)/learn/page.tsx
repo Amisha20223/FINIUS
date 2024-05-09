@@ -63,12 +63,16 @@ export function SideMenu() {
         </NextLink>
         <div className="flex flex-col w-full h-screen justify-center items-center gap-y-10">
           <div className='flex flex-row gap-x-10'>
-            <SideMenuInnerItem href="/learn"  modulename = "budget" icon="learn" label="Learning Modules" />
-            <SideMenuInnerItem href="/leaderboard"  modulename = "budget" icon="leaderboard" label="Quizzes" />
+            <SideMenuInnerItem href="/learning"  modulename = "budget" icon="learn" label="Learning Modules " />
+            <SideMenuInnerItem href="/learn"  modulename = "budget" icon="leaderboard" label="Quizzes" />
           </div>
           <div className='flex flex-row gap-x-10'>
+<<<<<<< HEAD
             
             <SideMenuInnerItem href="/chatboat" modulename = "budget" icon="quests" label="Chatbot" />
+=======
+            <SideMenuInnerItem href="/chatboat" modulename = "budget" icon="quests" label="Chatbot"/>
+>>>>>>> f18e4b91980bfbbbe0a982396f72986d74d2a0fe
             <SideMenuInnerItem href="/shop" icon="shop"  modulename = "budget" label="Feedback" />
           </div>
         </div>
