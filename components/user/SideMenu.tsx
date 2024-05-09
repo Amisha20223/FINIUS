@@ -24,16 +24,16 @@ export function SideMenu() {
             <LogoSVG className="w-10 hover:animate-bounce" />
           </span>
           <span className="sm:max-lg:hidden">
-            <span className="font-display text-3xl font-bold -tracking-wide text-primary">
-              FINIUS
+            <span  className="font-display text-3xl font-bold -tracking-wide text-primary">
+              <a href="/" >FINIUS</a>
             </span>
           </span>
         </NextLink>
         <ul className="flex flex-col gap-y-2">
-          <SideMenuItem href="/learn" icon="learn" label="Budget" />
-          <SideMenuItem href="/leaderboard" icon="leaderboard" label="Savings" />
-          <SideMenuItem href="/quests" icon="quests" label="Investment" />
-          <SideMenuItem href="/shop" icon="shop" label="Planning" />
+          <SideMenuItem href="/learn" icon="budget" label="Budget" />
+          <SideMenuItem href="/leaderboard" icon="savings" label="Savings" />
+          <SideMenuItem href="/quests" icon="investments" label="Investment" />
+          <SideMenuItem href="/shop" icon="planning" label="Planning" />
         </ul>
       </nav>
       <div className="space-y-2 border-t-2 px-4 pb-2 pt-2 sm:max-lg:px-2">
