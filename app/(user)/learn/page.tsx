@@ -67,6 +67,7 @@ export function SideMenu() {
             <SideMenuInnerItem href="/leaderboard"  modulename = "budget" icon="leaderboard" label="Quizzes" />
           </div>
           <div className='flex flex-row gap-x-10'>
+            
             <SideMenuInnerItem href="/chatboat" modulename = "budget" icon="quests" label="Chatbot" />
             <SideMenuInnerItem href="/shop" icon="shop"  modulename = "budget" label="Feedback" />
           </div>
