@@ -70,13 +70,13 @@ export function SideMenu() {
     <div className="flex h-screen flex-col justify-between pt-6">
       <nav className="flex flex-col gap-6 px-4 sm:max-lg:px-2">
         <NextLink href="/quests">
-          <button className="focus-visible self-start rounded-xl max-sm:ml-4 sm:max-lg:self-center lg:ml">
+          <button className="focus-visible self-start rounded-xl max-sm:ml sm:max-lg:self-center lg:ml">
             <span className="hidden sm:max-lg:block">
               <LogoSVG className="w-10 hover:animate-bounce" />
             </span>
             <span className="sm:max-lg:hidden">
-              <span className="font-display text-1xl font-bold -tracking-wide text-primary">
-              Investment
+              <span className="font-display text-1xl font-normal -tracking-wide text-pink-100">
+              Choose your learning Path!
               </span>
             </span>
           </button>
