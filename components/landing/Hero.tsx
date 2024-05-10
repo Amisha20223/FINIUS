@@ -76,9 +76,14 @@ export function Hero() {
               variants={item}
               transition={{ delay: 0.5 }}
             >
-              <Button variant="primary" size="lg" className="w-full" asChild>
+              <Button variant="primary" size="lg" className="w-full mb-4" asChild>
                 <NextLink href="/learn" className="truncate">
                   Continue Learning
+                </NextLink>
+              </Button>
+              <Button variant="secondary" size="lg" className="w-full mb-4" asChild>
+                <NextLink href="/learn" className="truncate">
+                  Training Simulator
                 </NextLink>
               </Button>
             </MotionDiv>

@@ -70,7 +70,7 @@ import React from 'react';
 
 const LearningPage: React.FC = () => {
   return (
-    <div className="bg-black text-white">
+    // <div className="bg-black text-white">
       <div className="container mx-auto px-4 py-8">
         <header>
           <h1 className="text-center text-3xl font-bold mb-6 hover:text-red-500 transition duration-300 ease-in-out transform hover:scale-105">
@@ -136,7 +136,7 @@ const LearningPage: React.FC = () => {
           </ul>
         </section>
       </div>
-    </div>
+    // </div>
   );
 };
 
