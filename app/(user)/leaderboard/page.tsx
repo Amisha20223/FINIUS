@@ -78,7 +78,7 @@ export function SideMenu() {
               <LogoSVG className="w-10 hover:animate-bounce" />
             </span>
             <span className="sm:max-lg:hidden">
-              <span className="font-display text-1xl font-normal -tracking-wide text-green-100">
+              <span className="font-display text-1xl font-normal -tracking-wide text-green-500">
               Choose your learning Path!
               </span>
             </span>

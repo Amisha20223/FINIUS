@@ -80,30 +80,30 @@ const LearningPage: React.FC = () => {
 
         <article className="max-w-3xl mx-auto mb-8">
           <p className="text-lg mb-4">
-          Budgeting financial stability aur success achieve karne ke liye essential hai. Ye sirf apki spending ko rokne ke baare mein nahi hai; balki, ye ek powerful tool hai jo apko apke paise par control lene aur apke future ke liye planning karne mein madad karta hai.
+          Budgeting is crucial for achieving financial stability and success. It's not just about cutting back on spending; it's a powerful tool that helps you take control of your money and plan for your future.
           </p>
           <h2 className="text-lg text-3xl font-bold mb-6 text-green-200">
              
           </h2>
           <ul className="list-disc pl-6 mb-4">
-            <li>Apne kharchon ka track rakho aur pehchan lo ki kis-kis jagah par bachat ki ja sakti hai.</li>
-            <li>Apne financial lakshya set karo aur unhe paane ki disha mein kaam karo.</li>
-            <li>Apni financial stress ko kam karo jab aapko bilkul pata ho ki aapke paise kahan ja rahe hain.</li>
-            <li>Ek emergency fund bana kar achanak aane wale kharchon ka samna karo.</li>
-            <li>Savdhaanipoorvak nivesh karo aur samay ke saath apni sampatti ko badhao.
-</li>
+          <li>Stay on top of your spending game and sniff out those sweet spots where you can stash some cash.</li>
+<li>Lock in those financial goals and hustle hard to make 'em a reality.</li>
+<li>Ease off the money stress by getting the lowdown on where your dough is disappearing.</li>
+<li>Build up a rainy day fund to tackle those unexpected money pits like a boss.</li>
+<li>Dive into smart investments and watch your bankroll swell over time.</li>
+
           </ul>
           <p className="text-lg">
-          Is section mein, hum budgeting ke alag-alag pehluon ko samjhege, mool budgeting tips se lekar unchahe nivesh strategies tak. Chaliye, shuru karte hain!
+          In this section, we'll delve into different aspects of budgeting, from basic budgeting tips to desired investment strategies. Let's get started!
           </p>
         </article>
 
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Budgeting Articles */}
           <div className="bg-pink-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
-            <h3 className="text-xl font-semibold mb-2 text-pink-700">Budgeting: Shuruat kaise karein?</h3>
+            <h3 className="text-xl font-semibold mb-2 text-pink-700">Budgeting: How  do you Start</h3>
             <p className="text-gray-700 mb-4">
-            Aapka budget aisa hona chahiye jo aap baar-baar dekh sakein aur hamesha istemal kar sakein. Budget banane ke kayi tareeke hote hain, aur aapko wo tareeka choose krna chahiye jise aap sabse jaida comfortable feel karte hain.
+            Your budget needs to be something that you can look at and refer to frequently. There are multiple ways of building a budget, and you should pick the one you are most comfortable using.
               </p>
             <a href="#" className="text-blue-500 hover:underline">Read More</a>
           </div>
@@ -111,7 +111,7 @@ const LearningPage: React.FC = () => {
           <div className="bg-lime-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 text-lime-700">Budgeting and the 50:30:20 rule</h3>
             <p className="text-gray-700 mb-4">
-            The 50-30-20 rule ek suggested budgeting guideline hai jo salah deta hai ki aapko apne aay ka 50% zaruriyat par, 30% vikalpik kharch par, aur 20% bachat par bantna chahiye.
+            The 50-30-20 rule is a suggested budgeting guideline that advises allocating 50% of your income to necessities, 30% to discretionary spending, and 20% to savings.
             </p>
             <a href="#" className="text-blue-500 hover:underline">Read More</a>
           </div>
@@ -119,7 +119,7 @@ const LearningPage: React.FC = () => {
           <div className="bg-indigo-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 text-indigo-700">How do you build a budget?</h3>
             <p className="text-gray-700 mb-4">
-            Ek tarika budget banane ka ye hai ki aap 50/30/20 rule ka istemal karein. Isse aap apne paise ko teen kategoriyon mein baant sakte hain:Needs, wants, and savings.
+            One way to build a budget is to use the 50/30/20 rule. This divides your money into three categories: needs, wants, and savings.
             </p>
             <a href="#" className="text-blue-500 hover:underline">Read More</a>
           </div>
