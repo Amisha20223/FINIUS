@@ -5,6 +5,7 @@ import { SideMenuItem } from '@/components/user/SideMenuItem';
 import { SideMenuThemeButton } from '@/components/user/SideMenuThemeButton';
 import { SideMenuUserButton } from '@/components/user/SideMenuUserButton';
 import LogoSVG from '@/public/logo.svg';
+// import page from '@\app\(landing)\page.tsx';
 
 
 export function SideMenu() {
@@ -17,7 +18,7 @@ export function SideMenu() {
     <div className="flex h-full flex-col justify-between pt-6">
       <nav className="flex flex-col gap-6 px-4 sm:max-lg:px-2">
         <NextLink
-          href="/learn"
+          href="/"
           className="focus-visible self-start rounded-xl max-sm:ml-4 sm:max-lg:self-center lg:ml-4"
         >
           <span className="hidden sm:max-lg:block">
@@ -25,7 +26,10 @@ export function SideMenu() {
           </span>
           <span className="sm:max-lg:hidden">
             <span  className="font-display text-3xl font-bold -tracking-wide text-primary">
-              <a href="/" >FINIUS</a>
+              {/* <a href="/" >FINIUS</a> */}
+              <NextLink href="/" className="truncate">
+                  FINIUS 
+                </NextLink>
             </span>
           </span>
         </NextLink>
