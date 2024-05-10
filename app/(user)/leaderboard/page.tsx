@@ -79,7 +79,7 @@ export function SideMenu() {
             </span>
             <span className="sm:max-lg:hidden">
               <span className="font-display text-1xl font-normal -tracking-wide text-green-500">
-              Choose your learning Path!
+              Choose your learning Path! 
               </span>
             </span>
           </button>

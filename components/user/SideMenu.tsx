@@ -38,6 +38,7 @@ export function SideMenu() {
           <SideMenuItem href="/leaderboard" icon="savings" label="Savings" />
           <SideMenuItem href="/quests" icon="investments" label="Investment" />
           <SideMenuItem href="/shop" icon="planning" label="Planning" />
+          <SideMenuItem  href="/robo" icon="heart" label="Chatbot"/>
         </ul>
       </nav>
       <div className="space-y-2 border-t-2 px-4 pb-2 pt-2 sm:max-lg:px-2">
