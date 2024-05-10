@@ -79,20 +79,17 @@ export function SideMenu() {
             </span>
             <span className="sm:max-lg:hidden">
               <span className="font-display text-1xl font-normal -tracking-wide text-green-500">
-              Choose your learning Path! 
+              Select One:)
               </span>
             </span>
           </button>
         </NextLink>
         <div className="flex flex-col w-full h-screen justify-center items-center gap-y-10">
           <div className='flex flex-row gap-x-10'>
-            <SideMenuInnerItem href="/learning"  modulename = "budget" icon="learn" label="Blogs/Articles " />
-             <SideMenuInnerItem href="/learn"  modulename = "budget" icon="leaderboard" label="Gamified Learning" /> 
+            <SideMenuInnerItem href="/tands"  modulename = "budget" icon="budget" label="Tax" />
+             <SideMenuInnerItem href="/tands"  modulename = "budget" icon="savings" label="Savings" /> 
           </div>
-          <div className='flex flex-row gap-x-10'>
-            <SideMenuInnerItem href="/videos" modulename = "budget" icon="quests" label="Videos"/>
-            <SideMenuInnerItem href="/shop" icon="shop"  modulename = "budget" label="Performance Tracker" />
-          </div>
+         
         </div>
       </nav>
       {/* <div className="space-y-5 border-t-7 px-2 pb-2 pt-2 sm:max-lg:px-2">

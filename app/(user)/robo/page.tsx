@@ -11,4 +11,5 @@ export default function Learn() {
       <div className="flex h-full flex-col justify-between pt-6">
        
       </div>
-    );
+    )
+  };
