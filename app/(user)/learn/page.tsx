@@ -64,7 +64,7 @@ export function SideMenu() {
         <div className="flex flex-col w-full h-screen justify-center items-center gap-y-10">
           <div className='flex flex-row gap-x-10'>
             <SideMenuInnerItem href="/learning"  modulename = "budget" icon="learn" label="Blogs/Articles " />
-             <SideMenuInnerItem href="/learn"  modulename = "budget" icon="leaderboard" label="Gamified Learning" /> */}
+             <SideMenuInnerItem href="/game"  modulename = "budget" icon="leaderboard" label="Gamified Learning" /> */}
           </div>
           <div className='flex flex-row gap-x-10'>
             <SideMenuInnerItem href="/videos" modulename = "budget" icon="quests" label="Videos"/>
