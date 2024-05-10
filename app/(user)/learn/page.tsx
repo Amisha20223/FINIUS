@@ -89,6 +89,8 @@ import NextLink from 'next/link';
 import { SideMenuInnerItem, SideMenuItem } from '@/components/user/SideMenuItem';
 import { SideMenuThemeButton } from '@/components/user/SideMenuThemeButton';
 import { SideMenuUserButton } from '@/components/user/SideMenuUserButton';
+import { Assistant } from '@/components/user/Assistant';
+
 import LogoSVG from '@/public/logo.svg';
 
 export default function Learn() {
@@ -127,10 +129,11 @@ export function SideMenu() {
           </div>
         </div>
       </nav>
-      {/* <div className="space-y-5 border-t-7 px-2 pb-2 pt-2 sm:max-lg:px-2">
+      { <div className="space-y-5 border-t-7 px-2 pb-2 pt-2 sm:max-lg:px-2">
         <SideMenuThemeButton />
         <SideMenuUserButton />
-      </div> */}
+        <Assistant/>
+      </div> }
     </div>
   );
 }

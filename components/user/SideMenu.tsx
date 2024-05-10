@@ -4,6 +4,7 @@ import NextLink from 'next/link';
 import { SideMenuItem } from '@/components/user/SideMenuItem';
 import { SideMenuThemeButton } from '@/components/user/SideMenuThemeButton';
 import { SideMenuUserButton } from '@/components/user/SideMenuUserButton';
+import {Assistant} from '@/components/user/Assistant';
 import LogoSVG from '@/public/logo.svg';
 // import page from '@\app\(landing)\page.tsx';
 
@@ -38,13 +39,12 @@ export function SideMenu() {
           <SideMenuItem href="/leaderboard" icon="savings" label="Tax/Savings" />
           <SideMenuItem href="/quests" icon="investments" label="Investment" />
           <SideMenuItem href="/shop" icon="planning" label="Planning" />
-          <SideMenuItem  href="/robo" icon="heart" label="Chatbot"/>
-          
         </ul>
       </nav>
       <div className="space-y-2 border-t-2 px-4 pb-2 pt-2 sm:max-lg:px-2">
         <SideMenuThemeButton />
         <SideMenuUserButton />
+        <Assistant />
       </div>
       {/* Add the MainBody component */}
     
