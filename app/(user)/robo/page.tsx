@@ -19,7 +19,7 @@ const LearningPage: React.FC = () => {
   return (
    
      <div>
-      <h2 className="text-xl font-bold mb-4">Chatbot</h2>
+      <h2 className="text-xl font-bold mb-4">Hi, Your Buddy here!</h2>
       <iframe
         src="https://chat.vercel.ai/" // This path should point to your Unity WebGL build's index.html
         title="ChatBot"
