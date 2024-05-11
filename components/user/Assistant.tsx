@@ -13,11 +13,11 @@ export function Assistant() {
         alt="Doubts? Ask me!"
         className="absolute bottom-40 right-10 w-50 animate-bounce"
       /> */}
-      /* <NextLink href="/" className="truncate">
+      {/* <NextLink href="/" className="truncate">
                   FINIUS 
-                </NextLink> */
+                </NextLink> */}
                 <NextLink href="/robo"
-      className=" text-secondary absolute bottom-40 right-10 w-50 animate-bounce">  
+      className=" text-secondary absolute bottom-40 right-10 w-50 animate-bounce text-xl">  
        🤖 Doubts? Ask me!
        </NextLink>
     </div>

@@ -130,9 +130,9 @@ export function SideMenu() {
         </div>
       </nav>
       { <div className="space-y-5 border-t-7 px-2 pb-2 pt-2 sm:max-lg:px-2">
-        <SideMenuThemeButton />
-        <SideMenuUserButton />
-        <Assistant/>
+        {/* <SideMenuThemeButton /> */}
+        {/* <SideMenuUserButton /> */}
+        {/* <Assistant/> */}
       </div> }
     </div>
   );
