@@ -1,6 +1,3 @@
-// assistant.tsx
-import React from 'react';
-
 export function Assistant() {
   // Component logic here
 //   return <div>Assistant component</div>;
@@ -8,15 +5,14 @@ export function Assistant() {
     <div className="relative">
       {/* Other content of your assistant page */}
       <img
-        src="/robot.png"
-        alt="Doubts? Ask me!"
-        className="absolute bottom-40 right-10 w-50 animate-bounce"
-      />
+  src="/robot.png" 
+  alt="Any DOUBT? ASK ME"
+  className="absolute bottom-40 right-10 w-50 animate-bounce"
+/>
+
     </div>
   );
 }
-
-
 // AssistantPage.jsx
 // import React from 'react';
 

@@ -78,7 +78,7 @@ export function SideMenu() {
               <LogoSVG className="w-10 hover:animate-bounce" />
             </span>
             <span className="sm:max-lg:hidden">
-              <span className="font-display text-1xl font-normal -tracking-wide text-green-500">
+              <span className="font-disaplay text-1xl font-normal -tracking-wide text-green-500">
               Select One:)
               </span>
             </span>
@@ -87,7 +87,8 @@ export function SideMenu() {
         <div className="flex flex-col w-full h-screen justify-center items-center gap-y-10">
           <div className='flex flex-row gap-x-10'>
             <SideMenuInnerItem href="/tands"  modulename = "budget" icon="budget" label="Tax" />
-             <SideMenuInnerItem href="/tands"  modulename = "budget" icon="savings" label="Savings" /> 
+             <SideMenuInnerItem href="/savings"  modulename = "budget" icon="savings" label="Savings" /> 
+               
           </div>
          
         </div>

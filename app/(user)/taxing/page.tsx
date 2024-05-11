@@ -12,25 +12,26 @@ const LearningPage: React.FC = () => {
 
         <section className="grid grid-row-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {/* Budgeting Articles */}
-          <div className="bg-orange-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
-            <h3 className="text-xl font-semibold mb-2 text-orange-700"> What is budget?</h3>
+          <div className="bg-amber-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+            <h3 className="text-xl font-semibold mb-2 text-orange-700"> What is saving?</h3>
             <p className="text-gray-700 mb-4">
-            Budgeting: Your Blueprint for Financial Success!
+            Secure Your Future, One Dollar at a Time.
 
-            <iframe width="300" height="315"
-        src="https://www.youtube.com/embed/oFUtWo4YcbM">
-            </iframe>
+            <iframe width="300" height="315" src="https://www.youtube.com/embed/wXHQjScKPzc"></iframe>
+
             </p>
             
           </div>
 
-          <div className="bg-green-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
-            <h3 className="text-xl font-semibold mb-2 text-green-700"> Importance of Budgeting!</h3>
+          <div className="bg-emerald-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+            <h3 className="text-xl font-semibold mb-2 text-green-700">Golden Rules!</h3>
             <p className="text-gray-700 mb-4">
             Empower Your Finances: Budgeting Builds Financial Freedom!
             <iframe width="300" height="315"
-        src="https://www.youtube.com/embed/j1Vwth0B8I8">
-            </iframe>
+             src="https://www.youtube.com/embed/Z1bU3dE7Rdc" frameborder="0" allowfullscreen>
+
+             </iframe>
+
             </p>
      
           </div>
@@ -38,10 +39,11 @@ const LearningPage: React.FC = () => {
           <div className="bg-indigo-300 p-6 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
             <h3 className="text-xl font-semibold mb-2 text-indigo-700"> How to manage budget and save money.</h3>
             <p className="text-gray-700 mb-4">
-            Master Your Money: Budgeting Tips to Save for Tomorrow!
-             <iframe width="300" height="315"
-            src="https://www.youtube.com/embed/HQzoZfc3GwQ?autoplay=1&mute=1">
-            </iframe>
+            Maximize Your Moolah: Budget Hacks to Stack Cash for Tomorrow
+            <iframe width="300" height="315"
+            src="https://www.youtube.com/embed/BJEIP7qWifI">
+             </iframe>
+
             </p>
             </div>
         </section>
