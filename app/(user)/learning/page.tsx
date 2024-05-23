@@ -80,21 +80,20 @@ const LearningPage: React.FC = () => {
 
         <article className="max-w-3xl mx-auto mb-8">
           <p className="text-lg mb-4">
-          Budgeting is crucial for achieving financial stability and success. It's not just about cutting back on spending; it's a powerful tool that helps you take control of your money and plan for your future.
+          Budgeting is crucial for achieving financial stability and success. Its not just about cutting back on spending; its a powerful tool that helps you take control of your money and plan for your future.
           </p>
           <h2 className="text-lg text-3xl font-bold mb-6 text-green-200">
-             
           </h2>
           <ul className="list-disc pl-6 mb-4">
           <li>Stay on top of your spending game and sniff out those sweet spots where you can stash some cash.</li>
-<li>Lock in those financial goals and hustle hard to make 'em a reality.</li>
+<li>Lock in those financial goals and hustle hard to make em a reality.</li>
 <li>Ease off the money stress by getting the lowdown on where your dough is disappearing.</li>
 <li>Build up a rainy day fund to tackle those unexpected money pits like a boss.</li>
 <li>Dive into smart investments and watch your bankroll swell over time.</li>
 
           </ul>
           <p className="text-lg">
-          In this section, we'll delve into different aspects of budgeting, from basic budgeting tips to desired investment strategies. Let's get started!
+          In this section, we will  delve into different aspects of budgeting, from basic budgeting tips to desired investment strategies. Lets get started!
           </p>
         </article>
 

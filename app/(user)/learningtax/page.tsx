@@ -24,7 +24,7 @@ const TaxInfo: React.FC = () => {
         {/* Types of Taxes */}
         <section className="mt-12 mb-6">
           <h2 className="text-3xl font-semibold text-pink-800">Types of Taxes in India</h2>
-          <p className="mt-4">Here's a breakdown of the main categories of taxes:</p>
+          <p className="mt-4">Heres a breakdown of the main categories of taxes:</p>
           <ul className="list-disc list-inside">
             <li><strong>Direct Taxes:</strong>
               <ul className="list-disc list-inside ml-4">
@@ -86,7 +86,7 @@ const TaxInfo: React.FC = () => {
           <ol className="list-decimal list-inside">
             <li><strong>Collect Documents:</strong> Gather all relevant income, tax deduction, and investment proof documents.</li>
             <li><strong>Calculate Total Income and Tax Liability:</strong> This includes income from various sources minus deductions and exemptions.</li>
-            <li><strong>E-File Returns:</strong> Through the Income Tax Department's website or third-party software.</li>
+            <li><strong>E-File Returns:</strong> Through the Income Tax Departments website or third-party software.</li>
             <li><strong>Verify Return:</strong> This can be done via an Aadhar-based OTP, net banking, or by sending a signed ITR-V form to the Central Processing Centre in Bangalore.</li>
           </ol>
         </section>
