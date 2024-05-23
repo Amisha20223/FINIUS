@@ -28,7 +28,7 @@ const LearningPage: React.FC = () => {
             <p className="text-gray-700 mb-4">
             Empower Your Finances: Budgeting Builds Financial Freedom!
             <iframe width="300" height="315"
-             src="https://www.youtube.com/embed/Z1bU3dE7Rdc" frameborder="0" allowfullscreen>
+             src="https://www.youtube.com/embed/Z1bU3dE7Rdc" frameBorder="0" allowFullScreen>
 
              </iframe>
 
