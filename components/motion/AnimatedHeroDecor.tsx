@@ -11,7 +11,7 @@ type AnimatedHeroDecorProps = {
 
 export function AnimatedHeroDecor({
   move = 20,
-  delay = 0.8,
+  delay = 0.6,
   children,
   className,
 }: PropsWithChildren<AnimatedHeroDecorProps>) {
