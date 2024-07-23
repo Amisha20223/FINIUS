@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 export function getMetadataRootURL() {
   switch (process.env.VERCEL_ENV) {
     case 'production':
-      return new URL(`${process.env.NEXT_PUBLIC_WEB_URL}`)
+      return new URL(`https://${process.env.NEXT_PUBLIC_WEB_URL}`)
     case 'preview':
       return new URL(`https://${process.env.VERCEL_URL}`)
     default:
