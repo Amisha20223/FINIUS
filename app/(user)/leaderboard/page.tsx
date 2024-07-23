@@ -55,12 +55,13 @@
 
 import React from 'react';
 import NextLink from 'next/link';
-import { SideMenuInnerItem, SideMenuItem } from '@/components/user/SideMenuItem';
+import { SideMenuInnerItem } from '@/components/user/SideMenuItem';
 import { SideMenuThemeButton } from '@/components/user/SideMenuThemeButton';
 import { SideMenuUserButton } from '@/components/user/SideMenuUserButton';
 import LogoSVG from '@/public/logo.svg';
 
-export default function Learn() {
+// Page component
+export default function LeaderboardPage() {
   return (
     <div className="h-[200vh]">
       <SideMenu />
@@ -68,7 +69,8 @@ export default function Learn() {
   );
 }
 
-export function SideMenu() {
+// Internal component, not exported
+function SideMenu() {
   return (
     <div className="flex h-screen flex-col justify-between pt-6">
       <nav className="flex flex-col gap-6 px-4 sm:max-lg:px-2">
@@ -79,20 +81,19 @@ export function SideMenu() {
             </span>
             <span className="sm:max-lg:hidden">
               <span className="font-disaplay text-1xl font-normal -tracking-wide text-green-500">
-              Select One:)
+                Select One:)
               </span>
             </span>
           </button>
         </NextLink>
         <div className="flex flex-col w-full h-screen justify-center items-center gap-y-10">
           <div className='flex flex-row gap-x-10'>
-            <SideMenuInnerItem href="/tands"  modulename = "budget" icon="budget" label="Tax" />
-             <SideMenuInnerItem href="/savings"  modulename = "budget" icon="savings" label="Savings" /> 
-               
+            <SideMenuInnerItem href="/tands" modulename="budget" icon="budget" label="Tax" />
+            <SideMenuInnerItem href="/savings" modulename="budget" icon="savings" label="Savings" />
           </div>
-         
         </div>
       </nav>
+      {/* Uncomment if needed */}
       {/* <div className="space-y-5 border-t-7 px-2 pb-2 pt-2 sm:max-lg:px-2">
         <SideMenuThemeButton />
         <SideMenuUserButton />
