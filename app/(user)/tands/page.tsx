@@ -32,11 +32,10 @@
 
 import React from 'react';
 import NextLink from 'next/link';
-import { SideMenuInnerItem, SideMenuItem } from '@/components/user/SideMenuItem';
-import { SideMenuThemeButton } from '@/components/user/SideMenuThemeButton';
-import { SideMenuUserButton } from '@/components/user/SideMenuUserButton';
+import { SideMenuInnerItem } from '@/components/user/SideMenuItem'; // Adjusted import based on your usage
 import LogoSVG from '@/public/logo.svg';
 
+// Default export for the page component
 export default function Learn() {
   return (
     <div className="h-[200vh]">
@@ -45,7 +44,8 @@ export default function Learn() {
   );
 }
 
-export function SideMenu() {
+// Internal component, not exported
+function SideMenu() {
   return (
     <div className="flex h-screen flex-col justify-between pt-6">
       <nav className="flex flex-col gap-6 px-4 sm:max-lg:px-2">
@@ -56,22 +56,23 @@ export function SideMenu() {
             </span>
             <span className="sm:max-lg:hidden">
               <span className="font-display text-1xl font-bold -tracking-wide text-primary">
-              Choose Your Learning Module!
+                Choose Your Learning Module!
               </span>
             </span>
           </button>
         </NextLink>
         <div className="flex flex-col w-full h-screen justify-center items-center gap-y-10">
           <div className='flex flex-row gap-x-10'>
-            <SideMenuInnerItem href="/learningtax"  modulename = "budget" icon="learn" label="Blogs/Articles " />
-            <SideMenuInnerItem href="/learn"  modulename = "budget" icon="leaderboard" label="Gamified Learning" />
+            <SideMenuInnerItem href="/learningtax" modulename="budget" icon="learn" label="Blogs/Articles" />
+            <SideMenuInnerItem href="/learn" modulename="budget" icon="leaderboard" label="Gamified Learning" />
           </div>
           <div className='flex flex-row gap-x-10'>
-            <SideMenuInnerItem href="/videos" modulename = "video" icon="video" label="Videos"/>
-            <SideMenuInnerItem href="/shop" icon="shop"  modulename = "budget" label="Performance Tracker" />
+            <SideMenuInnerItem href="/videos" modulename="video" icon="video" label="Videos" />
+            <SideMenuInnerItem href="/shop" icon="shop" modulename="budget" label="Performance Tracker" />
           </div>
         </div>
       </nav>
+      {/* Uncomment if needed */}
       {/* <div className="space-y-5 border-t-7 px-2 pb-2 pt-2 sm:max-lg:px-2">
         <SideMenuThemeButton />
         <SideMenuUserButton />
