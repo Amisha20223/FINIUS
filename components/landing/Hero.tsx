@@ -36,13 +36,13 @@ export function Hero() {
       <AnimatedTitle>
         <h1 className="flex w-full flex-col items-center justify-center gap-2 text-balance py-6 text-center font-display text-3xl font-bold capitalize leading-normal tracking-tighter sm:text-4xl sm:leading-snug md:gap-4 md:text-6xl">
           <span>
-            Get Ready to Rule{' '}
+            Get Ready to Rule
             <span className="rounded-full border border-highlight/25 bg-highlight/50 px-[0.35em] py-[0.125em] text-highlight-depth dark:bg-highlight/85 dark:text-background">
                Your WALLET.
             </span>
           </span>
           <span className="flex flex-wrap items-center justify-center">
-            Learn{' '}
+           
           
            
             With FINIUS
@@ -76,9 +76,14 @@ export function Hero() {
               variants={item}
               transition={{ delay: 0.5 }}
             >
-              <Button variant="primary" size="lg" className="w-full" asChild>
+              <Button variant="primary" size="lg" className="w-full mb-4" asChild>
                 <NextLink href="/learn" className="truncate">
                   Continue Learning
+                </NextLink>
+              </Button>
+              <Button variant="secondary" size="lg" className="w-full mb-4" asChild>
+                <NextLink href="/learn" className="truncate">
+                  Training Simulator
                 </NextLink>
               </Button>
             </MotionDiv>

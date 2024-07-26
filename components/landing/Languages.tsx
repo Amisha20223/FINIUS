@@ -5,14 +5,16 @@ import { Button } from '@/components/ui/button';
 import { AnimatedTitle } from '@/components/motion/AnimatedTitle';
 import { AnimatedList, AnimatedListItem } from '@/components/motion/AnimatedList';
 
+
 const images = [
-  { src: '/budget.png', alt: 'Image 1', title: 'budget' },
-  { src: '/savings.png', alt: 'Image 2', title: 'savings' },
-  { src: '/investment.png', alt: 'Image 3', title: 'investment' },
-  { src: '/retirement-plan.png', alt: 'Image 4', title: 'planning' },
+  { src: '/budget.png', alt: 'Budget Image', title: 'Budget' },
+  { src: '/savings.png', alt: 'Savings Image', title: 'Savings' },
+  { src: '/investment.png', alt: 'Investment Image', title: 'Investment' },
+  { src: '/retirement-plan.png', alt: 'Retirement Plan Image', title: 'Planning' },
 ];
 
-const list: Variants = {
+
+const list = {
   visible: {
     opacity: 1,
     transition: {
@@ -23,7 +25,8 @@ const list: Variants = {
   hidden: { opacity: 0 },
 };
 
-const item: Variants = {
+
+const item = {
   visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
   hidden: { opacity: 0, scale: 0.4 },
 };

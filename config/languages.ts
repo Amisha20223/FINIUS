@@ -1,47 +1,47 @@
 export const languages = [
   {
-    title: 'English',
-    flag: 'gb',
-    word: 'Hello',
+    word: 'ChatBot',
+    flag: '🤖',
+    title: 'ChatBot'
   },
   {
-    title: 'Spanish',
-    flag: 'es',
-    word: 'Hola',
+    word: 'Budget',
+    flag: '💰',
+    title: 'Budget Management'
   },
   {
-    title: 'French',
-    flag: 'fr',
-    word: 'Bonjour',
+    word: 'Quizzes',
+    flag: '❓',
+    title: 'Interactive Quizzes'
   },
   {
-    title: 'Korean',
-    flag: 'kr',
-    word: 'Annyeong',
+    word: 'Feedback',
+    flag: '📝',
+    title: 'User Feedback'
   },
   {
-    title: 'Japanese',
-    flag: 'jp',
-    word: 'Konnichiwa',
+    word: 'Stocks',
+    flag: '📈',
+    title: 'Stock Market'
   },
   {
-    title: 'Mandarin',
-    flag: 'cn',
-    word: 'Nǐ hǎo',
+    word: 'Investment',
+    flag: '💹',
+    title: 'Investment Strategies'
   },
   {
-    title: 'Italian',
-    flag: 'it',
-    word: 'Ciao',
+    word: 'Marketing',
+    flag: '📊',
+    title: 'Marketing Insights'
   },
   {
-    title: 'Russian',
-    flag: 'ru',
-    word: 'Привет',
+    word: 'Savings',
+    flag: '💵',
+    title: 'Savings Plans'
   },
   {
-    title: 'German',
-    flag: 'de',
-    word: 'Hallo',
-  },
-]
+    word: 'Trading',
+    flag: '📉',
+    title: 'Trading Tips'
+  }
+];

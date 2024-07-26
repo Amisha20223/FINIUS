@@ -33,9 +33,10 @@ export function Metrics({ children }: PropsWithChildren) {
       <ul ref={ref} className="relative mt-24 grid grid-cols-12 pb-40 sm:grid-cols-9 lg:px-[15%]">
         <li className="sticky top-[20%] col-start-2 col-end-12 pb-8 sm:col-start-3 sm:col-end-8 sm:pb-16 lg:top-[5%] lg:pb-40">
           <MetricsItem
-            className="bg-primary-light"
-            number={1000}
-            description="hours of fun content"
+            className="bg-primary-light  bg-yellow-200"
+            number={73}
+            suffix="%"
+            description="are eager to be financially literate"
             offset={20}
             progress={scrollYProgress}
           >
@@ -45,8 +46,9 @@ export function Metrics({ children }: PropsWithChildren) {
         <li className="sticky top-[22.5%] col-start-2 col-end-12 pb-8 sm:col-start-1 sm:col-end-5 sm:pb-16 lg:pb-40">
           <MetricsItem
             className="bg-secondary"
-            number={23}
-            description="language courses"
+            number={30.7}
+            suffix="%"
+            description="millennials lacked investing awareness."
             offset={22.5}
             progress={scrollYProgress}
           >
@@ -56,10 +58,10 @@ export function Metrics({ children }: PropsWithChildren) {
         <li className="sticky top-[25%] col-start-2 col-end-12 pb-8 sm:col-start-6 sm:col-end-10 sm:pb-16 lg:pb-40">
           <MetricsItem
             className="bg-highlight"
-            number={6}
-            prefix="~"
-            suffix="M"
-            description="users globally"
+            number={32}
+            suffix="%"
+            
+            description="Lacks basic financial knowledge."
             offset={25}
             progress={scrollYProgress}
           >
@@ -68,10 +70,10 @@ export function Metrics({ children }: PropsWithChildren) {
         </li>
         <li className="sticky top-[20%] col-start-1 col-end-13 pb-8 sm:col-start-2 sm:col-end-9 sm:pb-16 lg:top-[5%] lg:pb-40">
           <MetricsItem
-            className="bg-gradient-to-b from-primary to-primary-depth to-80%"
-            number={93}
+            className=" bg-purple-400"
+            number={76}
             suffix="%"
-            description="fluency in two months"
+            description="agreed that financial planning education is necessary."
             offset={20}
             progress={scrollYProgress}
             last
