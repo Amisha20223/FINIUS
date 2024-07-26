@@ -11,7 +11,7 @@ export function ThemeToggle({ className, ...props }: ButtonProps) {
 
   // TODO: fix layout shift from hydration
   if (!hydrated) return null
-
+ 
   return (
     <Button
       variant="ghost"
